@@ -28,8 +28,21 @@ function distanceTravelledInFeet(block1, block2){
   
 }
 
-function calculatesFarePrice(feet){
-  
+function calculatesFarePrice(block1, block2){
+    if(block1>block2){
+      let feet = (block1 - block2)*264;
+    if(feet < 400){
+      return 0;
+    }
+    else if(feet > 400 && feet < 2000){
+      return feet*2;
+    else if()
+      
+    }
+  }
+  else if(block2>block1){
+    return (block2 - block1)*264;
+  }
   
   
 }
