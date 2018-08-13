@@ -8,7 +8,7 @@ function distanceFromHqInBlocks(block){
   }
 }
 
-function distanceFromHqInFeet(block1, block2){
+function distanceTravelledInFeet(block1, block2){
   if(block1>block2){
     return (block1 - block2)*264;
   }
