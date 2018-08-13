@@ -42,7 +42,7 @@ function calculatesFarePrice(block1, block2){
     return 0;
   }
   else if(feet > 400 && feet < 2000){
-    return (feet - 400)*0.2;
+    return (feet - 400)*0.02;
   }
   else if(feet > 2000 && feet < 2500){
     return 25;
